@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "MedTranscribe",
+    "slug": "MedTranscribe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+  
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBmrzOtpqaSFnet_Any8WY2wNcYdJPlMSE",
+        "authDomain": "medtranscribe-4b39c.firebaseapp.com",
+        "projectId": "medtranscribe-4b39c",
+        "storageBucket": "medtranscribe-4b39c.firebasestorage.app",
+        "messagingSenderId": "796524154020",
+        "appId": "1:796524154020:web:51461d190a984a5be1aa31"
+      },
+      "supabaseUrl": "https://iyvnaeejiexrmxoificd.supabase.co",
+      "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml5dm5hZWVqaWV4cm14b2lmaWNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA3NzU0MTUsImV4cCI6MjA1NjM1MTQxNX0.G_QEutvV0B2nFEiCGjfLP0qQ31Nq4o505gLAe1kNT-Y"
+    }
+  }
+}
